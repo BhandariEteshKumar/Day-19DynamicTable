@@ -1,0 +1,52 @@
+body {
+  text-align: center;
+  align-items: center;
+}
+label {
+  width: 20%;
+  margin: 0;
+}
+input {
+  width: auto;
+  margin: 0;
+  padding: 0;
+}
+input[type="radio"] {
+  margin: 5px;
+}
+button {
+  background: blue;
+  width: 10%;
+}
+table {
+  width: 80% !important;
+  margin-left: 10%;
+  padding: 1px;
+  border-radius: 25%;
+  box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg);
+}
+tr {
+  padding: 2px;
+  height: 4px;
+  width: auto;
+}
+
+td {
+  padding: 2px;
+  height: 4px;
+  width: fit-content;
+  border-radius: 20px;
+}
+
+button {
+  border-radius: 4px;
+  width: fit-content;
+}
+/* button:focus {
+  background-color: green;
+} */
+
+div {
+  padding: 0 !important;
+  width: 90%;
+}
